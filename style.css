@@ -1,0 +1,55 @@
+body{
+background-image: url('C:/Users/riyan/OneDrive/Desktop/myportfolio/images/bg.jpg');
+background-repeat: no-repeat;
+
+}
+
+.head{
+   background-color: lightgray;
+   font-size:15px;
+
+}
+
+
+img {
+	width: 20%;
+	height: 25%;
+  float: right;
+  border:2px gray solid;
+  margin: 10px 10px;
+
+}
+
+section{
+	width:60%;
+	font-family: helvetica;
+	background:lightgray;
+	display: flex;
+	flex-direction: column;
+    align-items:center;
+    font-size: 30px;
+    justify-content: center;
+    margin:0px 50px 0px 50px;
+    padding:20px 0px 20px 0px;
+}
+section div{
+	border:4px solid gray;
+	margin-bottom: 8px;
+}
+.flex1{
+	flex:2;
+	width: 30%;
+}
+.flex2{
+	flex:2;
+	width:40%;
+    padding-left: 20%;
+}
+.flex3{
+	width:50%;
+	margin:4px 20px;
+}
+.flex4{
+	width:60%;
+	margin:0px 20px;
+}
